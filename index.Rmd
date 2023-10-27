@@ -11,12 +11,12 @@ output:
 
 Tianyi Wang is a second year Master of Public Health (MPH) candidate at Columbia University Mailman School of Public Health studying Health Policy and Management with a certificate in Applied Biostatistic and Public health data science. 
 
-# **Professional Experinces**
-Tianyi has 6 years working experiences in healthcare non-profit organization prior to pursuing a MPH degree. She's currently working as a freelance analyst at a market access consulting firm. She's dedicated to work in the healthcare industry and continuing building knowledge in the area. Her current focus is market access stretagey on rare disease and cell and gene therapies. 
+# **Professional Experiences**
+Tianyi has 6 years working experiences in healthcare non-profit organization prior to pursuing a MPH degree. She's currently working as a freelance analyst at a market access consulting firm. She's dedicated to work in the healthcare industry and continuing building knowledge in the area. Her current focus is market access strategy on rare disease and cell and gene therapies. 
 
 Please see Tianyi's [resume](resume.html) for more details on her academic and professional experience. 
 
-# **Personal Intereset**
+# **Personal Interest**
 On her spare time, Tianyi enjoys spending time with nature. She loves free diving, horseback riding. She's a level 1 FII certified free diver and Chinese Classical Dancer. 
 
 ![](images/diving.JPG) ![](images/horseback.JPG) 
