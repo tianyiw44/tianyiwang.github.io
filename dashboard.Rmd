@@ -1,0 +1,68 @@
+---
+title: "NYC Restaurant Inspections Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+
+data("rest_inspec")
+
+rest_inspec =
+  rest_inspec |>
+  janitor::clean_names() |>
+  select(boro, cuisine_description, dba, score, violation_description,grade, street, zipcode) |>
+  mutate(
+     boro = str_to_title(boro),
+     dba = str_to_title(dba),
+     street = str_to_title(street)
+     ) |>
+  filter(
+    grade %in% c("A", "B", "C"), 
+    boro != "Missing",
+    cuisine_description == "Chinese"
+    )
+  
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+rest_inspec|>
+  group_by(boro, grade)|>
+  count(cuisine_description)|>
+  plot_ly(x = ~ boro, y = ~n, color = ~grade, type = "bar", colors = "viridis")|>
+  layout(
+    title = "Number of Chinese Restaurant in Each Boro",
+    xaxis = list(title = "Boro"),
+    yaxis = list(title = "Number of Chinese Restaurant"),
+    legend = list(title = list(text = "Grade"))
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
