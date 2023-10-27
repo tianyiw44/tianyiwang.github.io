@@ -7,7 +7,7 @@ output:
 ---
 # **Introduction**
 
-![](images/Tianyi Wang headshot.JPG)
+<img src="images/Tianyi Wang headshot.JPG" width="50%">
 
 Tianyi Wang is a second year MPH candidate at Columbia University Mailman School of Public Health studying Health Policy and Management with a certificate in Applied Biostatistic and Public health data science. 
 
