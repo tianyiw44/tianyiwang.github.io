@@ -34,7 +34,7 @@ rest_inspec =
 ```
 
 
-Column {data-width=500}
+Column {data-width=600}
 -----------------------------------------------------------------------
 
 ### Chart A
@@ -52,7 +52,7 @@ rest_inspec|>
   )
 ```
 
-Column {data-width=500}
+Column {data-width=400}
 -----------------------------------------------------------------------
 
 ### Chart B
@@ -75,6 +75,16 @@ rest_inspec|>
 ### Chart C
 
 ```{r}
-
+rest_inspec|>
+  group_by(boro, grade)|>
+  summarize(mean_score =mean(score))|>
+  plot_ly(y = ~mean_score, color = ~boro,
+    type = "box", colors = "viridis")|>
+ layout(
+    title = "Average Score of Chinese Restaurant by Boro",
+    xaxis = list(title = "Boro"),
+    yaxis = list(title = "Average Score"),
+    legend = list(title = list(text = "Boro"))
+    )
 ```
 
