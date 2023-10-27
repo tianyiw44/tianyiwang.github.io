@@ -5,3 +5,51 @@ output:
     toc: true
     toc_float: true
 ---
+
+### **EDUCATION**
+**MPH in Health Policy and Management**  
+Certificate: Applied Biostatistics and Public Health Data Science  
+Columbia University Mailman School of Public Health; New York, NY
+
+* Graduation: Expected May 2024                
+* Coursework: Empirical Analysis for Health Policy, Data Science, Statistical Computing with SAS, Applied     Regression, Analysis of Categorical Data, Healthcare Economics
+
+**BFA in Fashion Marketing & Management**	
+Savannah College of Art and Design; Savannah, GA
+
+* GPA:3.91/4.00	
+* Graduation: Jun. 2017              
+
+### **SKILLS**
+**Data Analysis, Visualization & Statistics**: SAS, R Studio, STATA  
+**Computer**: Microsoft Office Suites (Excel, Word, PowerPoint), and Adobe Suites  
+**Research & Analytical**: Qualitative and Quantitative Analysis, Primary and Secondary Research: Survey, Advisory Board, In-Depth Interview  
+**Language**: English and Mandarin Chinese
+
+### **PROFESSIONAL EXPERIENCE**
+**Valuate Health Consultancy**, New York  
+Jun. 2023 – Present  
+*Strategy Analyst Intern (full-time) / Freelance Analyst*
+
+* Conducted secondary research to inform client adaptation strategies in diverse areas, including IRA, cell & gene therapy, value-based contracts, rare disease screening, and copay assistance programs, subsequently developed a vertical integration mapping tool encompassing major PMBs, payers, and healthcare providers
+* Analyzed clinical features, cost-effectiveness, and budget impact of new therapies, contributing to the development of core brand communication frameworks 
+* Translated research findings into actionable insights and recommendations for client presentations, including PIE decks and value propositions; provided insights on IRA and facilitated client adaptation to evolving healthcare policies
+* Assisted in primary research (adversity boards and in-depth-interviews) and transcribed survey notes into insights and visuals
+* Collaborated with the data team to transform large datasets into solutions for patient and prescription utilization, informing marketing strategies
+* Streamlined client onboarding by creating a landscape assessment template, evaluating disease areas, competitive landscapes, clinical and health economic impacts, and product coverage mix
+
+**Milstein Medical Asian American Partnership Foundation** & **American Skin Association**, New York  
+*Operations Manager*, Jan. 2020 – May 2023
+
+* Managed and prioritized 5+ projects across two organizations spanning four locations, ensuring smooth operations and administration task
+* Orchestrated the delivery of 33,948 PPEs to Wuhan, China during the early stages of the COVID-19 pandemic, navigating import regulations, customs documentation, establishing new supplier relationships, and coordinating logistics with airlines and regulatory bodies
+* Represented the foundation internationally and oversaw the planning and execution of the Inaugural Geroscience Symposium in China, featuring 40+ international experts and a 200+ person audience
+* Launched the Sun Protection Outreach Teaching by Students (SPOTS) program in Sarasota, FL, providing materials to over 1,100 students in a summer camp and received positive feedback from parents 
+
+*Project Manager*, Nov. 2017 – Dec. 2019
+
+* Established and managed the registration process for the MMAAP Foundation's China Representative Office in Beijing (2018) and the ASA Sarasota Office (2021), facilitating the organization's philanthropic expansion efforts
+* Demonstrated proficiency in regulatory oversight, identifying potential risks, and overseeing the filing of annual audits and reports to ensure the continuous operation of the China office
+* Managed the annual grant funding cycle for two organizations, overseeing budgets of up to $800,000 across five healthcare areas. Cultivated partnerships with over 60 renowned global institutions, resulting in the publication of over 240 research papers in leading journals
+
+
