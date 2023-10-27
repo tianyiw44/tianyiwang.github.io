@@ -1,0 +1,15 @@
+---
+title: "Tianyi Wang's Personal Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+# **Introduction**
+
+![](images/Tianyi Wang headshot.JPG)
+
+Tianyi Wang is a second year MPH candidate at Columbia University Mailman School of Public Health studying Health Policy and Management with a certificate in Applied Biostatistic and Public health data science. 
+
+
+
