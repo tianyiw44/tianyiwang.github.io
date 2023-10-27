@@ -22,7 +22,8 @@ rest_inspec =
   mutate(
      boro = str_to_title(boro),
      dba = str_to_title(dba),
-     street = str_to_title(street)
+     street = str_to_title(street),
+     zipcode = as.factor(zipcode)
      ) |>
   filter(
     grade %in% c("A", "B", "C"), 
@@ -57,7 +58,18 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
-
+rest_inspec|>
+  group_by(zipcode, grade)|>
+  summarize(mean_score =mean(score))|>
+  plot_ly(
+    x = ~zipcode, y = ~mean_score, color = ~grade,
+    type = "scatter", mode = "markers")|>
+  layout(
+    title = "Average Score of Chinese Restaurant by Zipcode",
+    xaxis = list(title = "ZIP Code"),
+    yaxis = list(title = "Average Score"),
+    legend = list(title = list(text = "Grade"))
+  )
 ```
 
 ### Chart C
