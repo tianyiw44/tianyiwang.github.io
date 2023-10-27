@@ -34,7 +34,7 @@ rest_inspec =
 ```
 
 
-Column {data-width=650}
+Column {data-width=500}
 -----------------------------------------------------------------------
 
 ### Chart A
@@ -52,7 +52,7 @@ rest_inspec|>
   )
 ```
 
-Column {data-width=350}
+Column {data-width=500}
 -----------------------------------------------------------------------
 
 ### Chart B
@@ -64,12 +64,12 @@ rest_inspec|>
   plot_ly(
     x = ~zipcode, y = ~mean_score, color = ~grade,
     type = "scatter", mode = "markers")|>
-  layout(
+ layout(
     title = "Average Score of Chinese Restaurant by Zipcode",
     xaxis = list(title = "ZIP Code"),
     yaxis = list(title = "Average Score"),
     legend = list(title = list(text = "Grade"))
-  )
+    )
 ```
 
 ### Chart C
